@@ -1,6 +1,8 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 body {
-  background-color: rgb(211, 211, 211);
-  font-family: 'Courier New', Courier, monospace;
+  background-color: rgb(0, 0, 0);
+  font-family: monospace;
 }

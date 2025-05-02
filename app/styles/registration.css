@@ -1,0 +1,80 @@
+/* app/styles/registration.css */
+.container {
+    padding: 20px;
+    background-color: aliceblue;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 10px;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+}
+
+label {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #2273ff;
+    width: auto;
+}
+
+/* From Uiverse.io by SujitAdroja */
+button[type="submit"] {
+    color: Black;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 2px solid #2273ff;
+    padding: 10px 20px;
+    font-size: 17px;
+    cursor: pointer;
+    font-weight: bold;
+    background: transparent;
+    position: relative;
+    transition: all 1s;
+    overflow: hidden;
+  }
+  
+  button[type="submit"]:hover {
+    color: white;
+  }
+  
+  button[type="submit"]::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    top: 0;
+    left: -40px;
+    transform: skewX(45deg);
+    background-color: #1a5bb8;
+    z-index: -1;
+    transition: all .9s;
+  }
+  
+  button[type="submit"]:hover::before {
+    width: 160%;
+  }
+  
